@@ -1,0 +1,23 @@
+2021-12-01 19:09:13 [main] [formulaWithNegetivesAndFractionsTest] [56] INFO  ConverterTest - Testing if "-2 + 2.5" converts to [+, -2, 2.5]
+2021-12-01 19:09:13 [main] [complicatedFormulaTest] [45] INFO  ConverterTest - Testing if "( 2 + 3 ) * 6 / ( 8 - 6 )" converts to [*, +, 2, 3, /, 6, -, 8, 6]
+2021-12-01 19:09:13 [main] [testFromFile] [83] INFO  ConverterTest - Testing if "8 / 2" converts to [/, 8, 2]
+2021-12-01 19:09:13 [main] [testFromFile] [83] INFO  ConverterTest - Testing if "( 5 + 3 ) * ( 2 + 2 )" converts to [*, +, 5, 3, +, 2, 2]
+2021-12-01 19:09:13 [main] [testFromFile] [83] INFO  ConverterTest - Testing if "2.5 - -0.5 * ( 2 + 2 )" converts to [-, 2.5, *, -0.5, +, 2, 2]
+2021-12-01 19:09:13 [main] [testFromFile] [83] INFO  ConverterTest - Testing if "4414 * 2 - 5 * ( 0.5 - -12.5 )" converts to [-, *, 4414, 2, *, 5, -, 0.5, -12.5]
+2021-12-01 19:09:13 [main] [testFromFile] [83] INFO  ConverterTest - Testing if "( 3 * ( ( 2 + 1 ) * 2 - 3 ) + 1 ) / 2" converts to [/, +, *, 3, -, *, +, 2, 1, 2, 3, 1, 2]
+2021-12-01 19:09:13 [main] [invalidInputTest] [63] INFO  ConverterTest - Testing if ( 2 2 + 2 throws an exception
+2021-12-01 19:09:13 [main] [simpleFormulaTest] [28] INFO  ConverterTest - Testing if "2 + 2" converts to [+, 2, 2]
+2021-12-01 19:09:23 [main] [wrongOrderInputTest] [62] INFO  CalculatorTest - Testing if [2, +, 2] throws an exception
+2021-12-01 19:09:23 [main] [divisionTest] [41] INFO  CalculatorTest - Testing if [/, +, 4, 8, 2] = 6
+2021-12-01 19:09:23 [main] [simpleCalculationTest] [27] INFO  CalculatorTest - Testing if [+, 2, 2] = 4
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [*, +, 2, 2, 3] = 12
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [/, *, 8, 3, +, 3, 1] = 6
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [+, /, 12, 6, *, +, 3, 4, 2] = 16
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [/, +, 1.5, 1.5, 3] = 1
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [+, 2, -2] = 0
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [+, *, 1.2, 5, -2] = 4
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [*, 4, -2] = -8
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [*, -, /, 18, 2, *, -2, 6, -1] = -21
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [*, 2048, 2] = 4096
+2021-12-01 19:09:23 [main] [testFromFile] [82] INFO  CalculatorTest - Testing if [-, -, -, 8, 2, 2, 2] = 2
+2021-12-01 19:09:23 [main] [invalidInputTest] [51] INFO  CalculatorTest - Testing if [+, +, 2] throws an exception
